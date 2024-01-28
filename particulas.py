@@ -2,7 +2,7 @@ import pygame
 from random import randint
 class CHAMA:
     def __init__(self):
-        palito = pygame.image.load("palito.png").convert_alpha()
+        palito = pygame.image.load("data/palito.png").convert_alpha()
         self.surf = pygame.transform.scale_by(palito, 2)
 
         self.particulas = []
